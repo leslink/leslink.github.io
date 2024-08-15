@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: lesLink日本拉拉多元之家
+SEOTitle: lesLink | les is more in  Japan包容、温馨的在日拉拉华人社区
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: lesismoreinjapan@gmail.com
+description: "日本拉拉多元之家 - 连接在日拉拉，尊重多元，温暖你我的心。让我们一起在异国他乡创造温馨、包容的家！"
+keyword: "在日拉拉, 在日生活, 互助社区, 文化交流, 生活指南, 日语学习, 工作吐槽, 留学生活, LGBTQ+, 女同性恋, 性少数群体, 多元化"
+url: "https://leslink.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
+weibo_username: lesLink
+zhihu_username: lesLink
+github_username: lesLink
+twitter_username: lesLink
+#facebook_username:  lesLink
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -74,8 +74,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "温暖包容的日本华人多元社区 <br> 互助、交流、成长、尊重多元"
+sidebar-avatar: https://github.com/leslink.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,15 +88,40 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# Friends
-friends:
+# Community Partners
+community-partners:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "日本华人会", href: "http://www.jcca.org.jp/" },
+    { title: "在日留学生协会", href: "http://www.cssa-japan.org/" },
+    { title: "日本华文教育网", href: "http://www.ochaken.org/" },
+    { title: "日本中文学校协会", href: "http://www.jcsa.jp/" },
+    { title: "日本华商总会", href: "http://www.jcba-jp.org/" },
+    { title: "在日华人IT协会", href: "http://www.cit.or.jp/" },
+    { title: "日本中华总商会", href: "http://www.cccj.jp/" },
+    { title: "日本华文作家协会", href: "http://www.jcwa.net/" },
+    { title: "日本LGBTQ+华人联盟", href: "http://www.lgbtq-chinese-japan.org/" },
+    { title: "多元性别权益促进会", href: "http://www.gender-equality-jp.org/" },
+  ]
+
+# Categories
+categories:
+  [
+    "生活指南",
+    "文化交流",
+    "日语学习",
+    "工作机会",
+    "留学生活",
+    "LGBTQ+专区",
+    "心理健康",
+    "法律援助",
+    "社交活动",
+  ]
+
+# LGBTQ+ Support Resources
+lgbtq_resources:
+  [
+    { title: "日本彩虹联盟", href: "http://rainbowalliance.jp/" },
+    { title: "东京LGBTQ+中心", href: "http://tokyolgbtcenter.org/" },
+    { title: "日本同性恋咨询热线", href: "http://lgbthotline.jp/" },
+    { title: "跨性别支持小组", href: "http://transgender-support.jp/" },
   ]
